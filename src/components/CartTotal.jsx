@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { ShopContext } from '../context/ShopContext';
-import Title from '../Components/Title';
+import Title from './Title';
 
 
 
