@@ -1,5 +1,6 @@
 import { assets } from '../assets/assets';
-import Title from '../Components/Title.jsx';
+import Title from '../components/Title';
+import NewsLetterBox from '../components/NewsletterBox';
 
 const About = () => {
   return (
@@ -70,7 +71,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* <NewsLetterBox /> */}
+      <NewsLetterBox />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import { assets } from '../assets/assets';
 import Title from '../components/Title';
-
+import NewsLetterBox from '../components/NewsletterBox';
 const Contact = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -49,7 +49,7 @@ Ahemdabad          </p>
         </div>
       </div>
 
-      {/* <NewsLetterBox /> */}
+      <NewsLetterBox />
     </div>
   );
 };
